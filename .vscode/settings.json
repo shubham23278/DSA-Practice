@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Recursion and Backtracking/Power-logarithmic",
         "Recursion and Backtracking/Power-linear",
-        "Recursion and Backtracking/Power-logarithmic"
+        "Time and Space Complexity/Bubble Sort"
     ]
 }
