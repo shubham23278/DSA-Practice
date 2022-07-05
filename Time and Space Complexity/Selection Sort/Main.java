@@ -35,7 +35,7 @@ public class Main {
   }
   
   public static void print(int[] arr) {
-    for (int i = 0; i < arr.length; i++) {
+    for (int i = 0; i < arr.length; i++) {git 
       System.out.println(arr[i]);
     }
   }
