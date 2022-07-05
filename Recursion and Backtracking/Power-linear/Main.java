@@ -2,11 +2,16 @@ import java.util.*;
 
 public class Main {
 
+    /**
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
-        Scanner scn = new Scanner(System.in);
-        int x = scn.nextInt();
-        int n = scn.nextInt();
-        System.out.println(power(x , n));
+        try (Scanner scn = new Scanner(System.in)) {
+            int x = scn.nextInt();
+            int n = scn.nextInt();
+            System.out.println(power(x , n));
+        }
 
     }
 
