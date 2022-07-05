@@ -1,5 +1,4 @@
-import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
 
@@ -35,7 +34,7 @@ public class Main {
   }
   
   public static void print(int[] arr) {
-    for (int i = 0; i < arr.length; i++) {git 
+    for (int i = 0; i < arr.length; i++) {
       System.out.println(arr[i]);
     }
   }
@@ -49,6 +48,7 @@ public class Main {
     }
     selectionSort(arr);
     print(arr);
+    scn.close();
   }
 
 }

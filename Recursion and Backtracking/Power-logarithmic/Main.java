@@ -1,5 +1,4 @@
-import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
 
@@ -8,6 +7,7 @@ public class Main {
         int x = scn.nextInt();
         int n = scn.nextInt();
         System.out.println(power(x , n));
+        scn.close();
     }
 
     public static int power(int x, int n){
