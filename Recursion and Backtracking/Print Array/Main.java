@@ -8,13 +8,14 @@ public class Main {
         int n = scn.nextInt();
         int[] arr = new int[n];
         for(int i=0; i<n; i++) arr[i] = scn.nextInt();
-
-        displayArr(arr, n);
+        displayArr(arr, 0);
 
     }
 
     public static void displayArr(int[] arr, int idx){
-        for(int i=0; i<idx; i++) System.out.println(arr[i]);
+        if(idx == arr.length) return;
+        System.out.println(arr[idx]);
+        displayArr(arr, idx+1);
     }
 
 }

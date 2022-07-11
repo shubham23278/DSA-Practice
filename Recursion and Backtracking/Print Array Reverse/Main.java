@@ -9,14 +9,13 @@ public class Main {
         int[] arr = new int[n];
         for(int i=0; i<n; i++) arr[i] = scn.nextInt();
 
-        displayArrReverse(arr, n);
+        displayArrReverse(arr, 0);
     }
 
     public static void displayArrReverse(int[] arr, int idx) {
-        while(idx > 0){
-            System.out.println(arr[idx-1]);
-            idx--;
-        }
+        if(idx == arr.length) return;
+        displayArrReverse(arr, idx+1);
+        System.out.println(arr[idx]);
     }
 
 }
